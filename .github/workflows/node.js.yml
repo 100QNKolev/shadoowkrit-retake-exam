@@ -21,6 +21,4 @@ jobs:
       with:
         node-version: 18.x
         cache: 'npm'
-    - run: npm install
-    - run: npx playwright install
     - run: npm run test:ui
